@@ -4,7 +4,7 @@ export const service_farmer = 'littlelambocoin_farmer';
 export const service_harvester = 'littlelambocoin_harvester';
 export const service_simulator = 'littlelambocoin_full_node_simulator';
 export const service_daemon = 'daemon';
-export const service_plotter = 'littlelambocoin_plotter';
+export const service_plotter = 'chia_plotter';
 
 // Corresponds with outbound_message.py NodeTypes
 export const service_connection_types = {
