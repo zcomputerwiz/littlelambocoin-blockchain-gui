@@ -7,7 +7,7 @@ import {
   AlertDialog,
   Flex,
   Card,
-} from '@chia/core';
+} from '@littlelambocoin/core';
 import {
   Grid,
   Typography,

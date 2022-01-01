@@ -12,11 +12,11 @@ global.key_path = 'config/ssl/daemon/private_daemon.key';
 
 function loadConfig(net) {
   try {
-    // check if CHIA_ROOT is set. it overrides 'net'
+    // check if LITTLELAMBOCOIN_ROOT is set. it overrides 'net'
     const config_root_dir =
-      'CHIA_ROOT' in process.env
-        ? process.env.CHIA_ROOT
-        : path.join(os.homedir(), '.chia', net);
+      'LITTLELAMBOCOIN_ROOT' in process.env
+        ? process.env.LITTLELAMBOCOIN_ROOT
+        : path.join(os.homedir(), '.littlelambocoin', net);
     const config = yaml.load(
       fs.readFileSync(path.join(config_root_dir, 'config/config.yaml'), 'utf8'),
     );

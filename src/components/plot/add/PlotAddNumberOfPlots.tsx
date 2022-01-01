@@ -8,7 +8,7 @@ import {
   Flex,
   Checkbox,
   TooltipIcon,
-} from '@chia/core';
+} from '@littlelambocoin/core';
 import {
   Grid,
   FormControl,
