@@ -5,7 +5,7 @@ const units = {
 };
 
 const aliases = {
-  littlelambocoin: ['ch', 'littlelambocoin', 'Littlelambocoin'],
+  littlelambocoin: ['ch', 'littlelambocoin', 'LittleLamboCoin'],
   mojo: ['mj', 'mojo'],
   colouredcoin: ['cc', 'colouredcoin'],
 };

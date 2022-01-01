@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-Project: littlelambocoin-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: de\n"
-"X-Crowdin-File: /[Littlelambocoin-Network.littlelambocoin-blockchain-gui] main/src/locales/en-US/messages.po\n"
+"X-Crowdin-File: /[LittleLamboCoin-Network.littlelambocoin-blockchain-gui] main/src/locales/en-US/messages.po\n"
 "X-Crowdin-File-ID: 118\n"
 
 #: src/components/plot/add/PlotAddChoosePlotter.tsx:78
@@ -31,8 +31,8 @@ msgid "(Optional)"
 msgstr "(Optional)"
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
-msgid "*Want to explore Littlelambocoin’s blocks further? Check out <0>Littlelambocoin Explorer</0> built by an open source developer."
-msgstr "*Möchtest du mehr über Littlelambocoin's Blocks erfahren? Besuche <0>Littlelambocoin Explorer</0>, entwickelt von einem Open Source Entwickler."
+msgid "*Want to explore LittleLamboCoin’s blocks further? Check out <0>LittleLamboCoin Explorer</0> built by an open source developer."
+msgstr "*Möchtest du mehr über LittleLamboCoin's Blocks erfahren? Besuche <0>LittleLamboCoin Explorer</0>, entwickelt von einem Open Source Entwickler."
 
 #: src/components/plot/add/PlotAddNFT.tsx:128
 msgid "+ Add New Plot NFT"
@@ -60,8 +60,8 @@ msgstr ""
 
 #: src/electron/main.tsx:431
 #: src/electron/main.tsx:518
-msgid "About Littlelambocoin Blockchain"
-msgstr "Mehr über die Littlelambocoin Blockchain"
+msgid "About LittleLamboCoin Blockchain"
+msgstr "Mehr über die LittleLamboCoin Blockchain"
 
 #: src/components/trading/ViewOffer.jsx:74
 msgid "Accept"
@@ -250,8 +250,8 @@ msgid "Block VDF Iterations"
 msgstr "Block VDF Iterationen"
 
 #: src/components/block/Block.jsx:337
-msgid "Block at height {0} in the Littlelambocoin blockchain"
-msgstr "Block der Höhe {0} in der Littlelambocoin Blockchain"
+msgid "Block at height {0} in the LittleLamboCoin blockchain"
+msgstr "Block der Höhe {0} in der LittleLamboCoin Blockchain"
 
 #: src/components/fullNode/FullNode.jsx:331
 #~ msgid "Block hash"
@@ -355,16 +355,16 @@ msgid "Chat on KeyBase"
 msgstr "Chatte auf KeyBase"
 
 #: src/electron/main.tsx:428
-msgid "Littlelambocoin"
-msgstr "Littlelambocoin"
+msgid "LittleLamboCoin"
+msgstr "LittleLamboCoin"
 
 #: src/electron/main.tsx:367
-msgid "Littlelambocoin Blockchain Wiki"
-msgstr "Littlelambocoin Blockchain Wiki"
+msgid "LittleLamboCoin Blockchain Wiki"
+msgstr "LittleLamboCoin Blockchain Wiki"
 
 #: src/components/wallet/standard/WalletStandard.tsx:642
-msgid "Littlelambocoin Wallet"
-msgstr "Littlelambocoin Wallet"
+msgid "LittleLamboCoin Wallet"
+msgstr "LittleLamboCoin Wallet"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:34
 msgid "Choose Number of Plots"
@@ -730,7 +730,7 @@ msgstr ""
 #~ "Bist du sicher, dass du mit dem Löschen fortfahren möchtest?"
 
 #: src/components/plot/add/PlotAddChoosePlotter.tsx:96
-msgid "Depending on your system configuration, you may find that an alternative plotter produces plots faster than the default Littlelambocoin Proof of Space plotter. If unsure, use the default Littlelambocoin Proof of Space plotter."
+msgid "Depending on your system configuration, you may find that an alternative plotter produces plots faster than the default LittleLamboCoin Proof of Space plotter. If unsure, use the default LittleLamboCoin Proof of Space plotter."
 msgstr ""
 
 #: src/electron/main.tsx:313
@@ -831,8 +831,8 @@ msgid "Enter a strong passphrase to secure your keys:"
 msgstr ""
 
 #: src/components/wallet/WalletImport.tsx:146
-msgid "Enter the 24 word mnemonic that you have saved in order to restore your Littlelambocoin wallet."
-msgstr "Gib dein gespeichertes 24 Worte langes Mnemonic ein um dein Littlelambocoin Wallet wiederherzustellen."
+msgid "Enter the 24 word mnemonic that you have saved in order to restore your LittleLamboCoin wallet."
+msgstr "Gib dein gespeichertes 24 Worte langes Mnemonic ein um dein LittleLamboCoin Wallet wiederherzustellen."
 
 #: src/components/settings/RemovePassphrasePrompt.tsx:118
 msgid "Enter your passphrase:"
@@ -850,7 +850,7 @@ msgstr "Fehler"
 
 #: src/components/wallet/standard/WalletStandard.tsx:450
 msgid "Error: Cannot send littlelambocoin to coloured address. Please enter a littlelambocoin address."
-msgstr "Fehler: Littlelambocoin kann nicht zu der farbigen Adresse geschickt werden. Bitte gib eine Littlelambocoin Adresse ein."
+msgstr "Fehler: LittleLamboCoin kann nicht zu der farbigen Adresse geschickt werden. Bitte gib eine LittleLamboCoin Adresse ein."
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:20
 msgid "Estimated Network Space"
@@ -1799,8 +1799,8 @@ msgid "Plots Passed Filter"
 msgstr "Plots Filter bestanden"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:35
-msgid "Plots are allocated space on your hard drive used to farm and earn Littlelambocoin. <0>Learn more</0>"
-msgstr "Plots werden Speicherplatz auf der Festplatte zugewiesen um Littlelambocoin zu farmen und zu erhalten <0>Lerne mehr</0>"
+msgid "Plots are allocated space on your hard drive used to farm and earn LittleLamboCoin. <0>Learn more</0>"
+msgstr "Plots werden Speicherplatz auf der Festplatte zugewiesen um LittleLamboCoin zu farmen und zu erhalten <0>Lerne mehr</0>"
 
 #: src/components/plot/add/PlotAddChoosePlotter.tsx:107
 msgid "Plotter"
@@ -2320,7 +2320,7 @@ msgstr "Länge des Ausgabenintervalls (Anzahl der Blöcke)"
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:401
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:448
 msgid "Spending Limit (littlelambocoin per interval): {0}"
-msgstr "Ausgabenlimit (Littlelambocoin pro Intervall): {0}"
+msgstr "Ausgabenlimit (LittleLamboCoin pro Intervall): {0}"
 
 #: src/components/fullNode/FullNode.jsx:100
 msgid "State"
@@ -2368,8 +2368,8 @@ msgstr "Status:"
 #~ msgstr "Sub Block Height"
 
 #: src/components/block/Block.jsx:338
-#~ msgid "Sub Block at height {0} in the Littlelambocoin blockchain"
-#~ msgstr "Sub Block at height {0} in the Littlelambocoin blockchain"
+#~ msgid "Sub Block at height {0} in the LittleLamboCoin blockchain"
+#~ msgstr "Sub Block at height {0} in the LittleLamboCoin blockchain"
 
 #: src/components/app/AppPassPrompt.tsx:202
 #: src/components/wallet/did/WalletDID.tsx:889
@@ -2527,8 +2527,8 @@ msgid "This feature is available only from the GUI."
 msgstr "Diese Funktion ist ausschließlich in der GUI verfügbar."
 
 #: src/components/wallet/card/WalletCardSpendableBalance.tsx:26
-msgid "This is the amount of Littlelambocoin that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Littlelambocoin that you have just spent but is not yet in the blockchain."
-msgstr "Dies ist die Menge an Littlelambocoin, mit der du derzeit Transaktionen durchführen kannst. Sie enthält keine ausstehenden Farmbelohnungen, ausstehende eingehende Transaktionen und Littlelambocoin, die du gerade ausgegeben hast, aber die noch nicht in der Blockchain sind."
+msgid "This is the amount of LittleLamboCoin that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and LittleLamboCoin that you have just spent but is not yet in the blockchain."
+msgstr "Dies ist die Menge an LittleLamboCoin, mit der du derzeit Transaktionen durchführen kannst. Sie enthält keine ausstehenden Farmbelohnungen, ausstehende eingehende Transaktionen und LittleLamboCoin, die du gerade ausgegeben hast, aber die noch nicht in der Blockchain sind."
 
 #: src/components/wallet/card/WalletCardPendingChange.tsx:26
 msgid "This is the pending change, which are change coins which you have sent to yourself, but have not been confirmed yet."
@@ -2548,7 +2548,7 @@ msgstr "Das ist die Zeit, zu der der Block vom Farmer erstellt wurde, bevor er m
 
 #: src/components/wallet/card/WalletCardTotalBalance.tsx:34
 msgid "This is the total amount of littlelambocoin in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
-msgstr "Dies ist die Gesamtmenge an Littlelambocoin in der Blockchaim im aktuellen Peak-Unterblock, die von deinen privaten Schlüsseln gesteuert wird. Es enthält eingefrorene Belohnungen, jedoch keine ausstehenden eingehenden und ausgehenden Transaktionen."
+msgstr "Dies ist die Gesamtmenge an LittleLamboCoin in der Blockchaim im aktuellen Peak-Unterblock, die von deinen privaten Schlüsseln gesteuert wird. Es enthält eingefrorene Belohnungen, jedoch keine ausstehenden eingehenden und ausgehenden Transaktionen."
 
 #: src/components/wallet/card/WalletCardPendingTotalBalance.tsx:29
 msgid "This is the total balance + pending balance: it is what your balance will be after all pending transactions are confirmed."
@@ -2593,8 +2593,8 @@ msgid "This trade was included on blockchain at this block height"
 msgstr "Dieser Handel wurde auf der Blockchain in dieser Blockhöhe aufgenommen"
 
 #: src/components/app/AppTimeBombAlert.tsx:19
-msgid "This version of Littlelambocoin is no longer compatible with the blockchain and can not safely farm."
-msgstr "Diese Version von Littlelambocoin ist nicht mehr kompatibel mit der Blockchain und kann nicht sicher farmen."
+msgid "This version of LittleLamboCoin is no longer compatible with the blockchain and can not safely farm."
+msgstr "Diese Version von LittleLamboCoin ist nicht mehr kompatibel mit der Blockchain und kann nicht sicher farmen."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:154
 msgid "Thread Multiplier for Phase 2"
@@ -2622,8 +2622,8 @@ msgstr "Nach"
 msgid "Total Balance"
 msgstr "Gesamtes Guthaben"
 
-#: src/components/farm/card/FarmCardTotalLittlelambocoinFarmed.tsx:15
-#~ msgid "Total Littlelambocoin Farmed"
+#: src/components/farm/card/FarmCardTotalLittleLamboCoinFarmed.tsx:15
+#~ msgid "Total LittleLamboCoin Farmed"
 #~ msgstr ""
 
 #: src/components/fullNode/card/FullNodeCardTotalIterations.tsx:20
@@ -2844,8 +2844,8 @@ msgid "Want to Join a Pool? Create a Plot NFT"
 msgstr "Möchtest du einem Pool beitreten? Erstelle ein Plot-NFT"
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:139
-msgid "Want to earn more Littlelambocoin? Add more plots to your farm."
-msgstr "Willst du mehr Littlelambocoin verdienen? Füge mehr Plots deiner Farm hinzu."
+msgid "Want to earn more LittleLamboCoin? Add more plots to your farm."
+msgstr "Willst du mehr LittleLamboCoin verdienen? Füge mehr Plots deiner Farm hinzu."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:87
 msgid "Want to have a delay before the next plot starts?"
@@ -2877,8 +2877,8 @@ msgid "Weight is the total added difficulty of all sub blocks up to and includin
 msgstr "Das Gewicht ist die zusätzliche Gesamtschwierigkeit aller Unterblöcke bis einschließlich diesem"
 
 #: src/components/selectKey/SelectKey.tsx:183
-msgid "Welcome to Littlelambocoin. Please log in with an existing key, or create a new key."
-msgstr "Willkommen bei Littlelambocoin. Melde dich mit einem bestehenden Schlüssel an oder erstelle einen neuen Schlüssel."
+msgid "Welcome to LittleLamboCoin. Please log in with an existing key, or create a new key."
+msgstr "Willkommen bei LittleLamboCoin. Melde dich mit einem bestehenden Schlüssel an oder erstelle einen neuen Schlüssel."
 
 #: src/components/wallet/WalletAdd.tsx:66
 msgid "Welcome! The following words are used for your wallet backup. Without them, you will lose access to your wallet, keep them safe! Write down each word along with the order number next to them. (Order is important)"
@@ -2952,8 +2952,8 @@ msgid "You need to claim your rewards first"
 msgstr "Du musst zuerst deine Belohnungen einfordern"
 
 #: src/components/app/AppTimeBomb.tsx:28
-#~ msgid "You need to upgrade the Littlelambocoin application as this version will stop working soon!"
-#~ msgstr "You need to upgrade the Littlelambocoin application as this version will stop working soon!"
+#~ msgid "You need to upgrade the LittleLamboCoin application as this version will stop working soon!"
+#~ msgstr "You need to upgrade the LittleLamboCoin application as this version will stop working soon!"
 
 #: src/components/plotNFT/select/PlotNFTSelectFaucet.tsx:37
 msgid "You need {currencyCode} to join a pool."
@@ -3010,7 +3010,7 @@ msgstr ""
 #: src/components/app/AppKeyringMigrator.tsx:177
 #: src/components/settings/ChangePassphrasePrompt.tsx:227
 #: src/components/settings/SetPassphrasePrompt.tsx:197
-msgid "Your passphrase can be stored in your system's secure credential store. Littlelambocoin will be able to access your keys without prompting for your passphrase."
+msgid "Your passphrase can be stored in your system's secure credential store. LittleLamboCoin will be able to access your keys without prompting for your passphrase."
 msgstr ""
 
 #: src/components/settings/Settings.tsx:80
@@ -3091,9 +3091,9 @@ msgstr "{0} Punkte {1} - vor {2} Stunden"
 msgid "{currencyCode} Block Rewards"
 msgstr "{currencyCode} Block Belohnungen"
 
-#: src/components/farm/card/FarmCardTotalLittlelambocoinFarmed.tsx:29
-msgid "{currencyCode} Total Littlelambocoin Farmed"
-msgstr "{currencyCode} Gesamtes Littlelambocoin gefarmt"
+#: src/components/farm/card/FarmCardTotalLittleLamboCoinFarmed.tsx:29
+msgid "{currencyCode} Total LittleLamboCoin Farmed"
+msgstr "{currencyCode} Gesamtes LittleLamboCoin gefarmt"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:28
 msgid "{currencyCode} User Transaction Fees"

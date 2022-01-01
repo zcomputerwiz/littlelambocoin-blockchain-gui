@@ -4,7 +4,7 @@ import type Wallet from '../types/Wallet';
 
 // deprecated
 export default function computeStatistics(wallets: Wallet[]): {
-  totalLittlelambocoinFarmed: Big;
+  totalLittleLamboCoinFarmed: Big;
   biggestHeight: number;
   biggestRewardHeight: number;
   poolCoins: Big;
@@ -55,7 +55,7 @@ export default function computeStatistics(wallets: Wallet[]): {
     });
   });
 
-  const totalLittlelambocoinFarmed = poolCoins.plus(farmerCoins);
+  const totalLittleLamboCoinFarmed = poolCoins.plus(farmerCoins);
   const totalBlockRewards = Big(poolCoins).times(8).div(7);
   const userTransactionFees = Big(farmerCoins).minus(
     Big(totalBlockRewards).div(8),
@@ -65,7 +65,7 @@ export default function computeStatistics(wallets: Wallet[]): {
     .minus(userTransactionFees);
 
   return {
-    totalLittlelambocoinFarmed,
+    totalLittleLamboCoinFarmed,
     biggestHeight,
     biggestRewardHeight,
     poolCoins,

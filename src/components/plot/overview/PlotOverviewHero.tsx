@@ -34,7 +34,7 @@ export default function PlotOverviewHero() {
           <Typography variant="body1">
             <Trans>
               {
-                'Plots are allocated space on your hard drive used to farm and earn Littlelambocoin. '
+                'Plots are allocated space on your hard drive used to farm and earn LittleLamboCoin. '
               }
               <Link
                 target="_blank"

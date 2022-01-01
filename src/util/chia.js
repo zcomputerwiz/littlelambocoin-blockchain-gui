@@ -12,7 +12,7 @@ const convert = (amount, from, to) => {
   return Number.parseFloat(amountInFromUnit.div(units.getUnit(to)));
 };
 
-class Littlelambocoin {
+class LittleLamboCoin {
   constructor(value, unit) {
     this._value = value;
     this._unit = unit;
@@ -73,7 +73,7 @@ class Littlelambocoin {
   }
 }
 
-export const littlelambocoin_formatter = (value, unit) => new Littlelambocoin(value, unit);
+export const littlelambocoin_formatter = (value, unit) => new LittleLamboCoin(value, unit);
 
 littlelambocoin_formatter.convert = convert;
 littlelambocoin_formatter.setDisplay = units.setDisplay;

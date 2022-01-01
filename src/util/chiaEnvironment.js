@@ -45,7 +45,7 @@ const getExecutablePath = (dist_file) => {
   return path.join(__dirname, PY_MAC_DIST_FOLDER, dist_file);
 };
 
-const getLittlelambocoinVersion = () => {
+const getLittleLamboCoinVersion = () => {
   let version = null;
   const exePath = getExecutablePath('littlelambocoin');
   // first see if we can get a littlelambocoin exe in a standard location relative to where we are
@@ -71,7 +71,7 @@ const getLittlelambocoinVersion = () => {
   return version;
 };
 
-const startLittlelambocoinDaemon = () => {
+const startLittleLamboCoinDaemon = () => {
   let script = getScriptPath(PY_DIST_FILE);
   let processOptions = {};
   //processOptions.detached = true;
@@ -138,7 +138,7 @@ const startLittlelambocoinDaemon = () => {
 };
 
 module.exports = {
-  startLittlelambocoinDaemon,
-  getLittlelambocoinVersion,
+  startLittleLamboCoinDaemon,
+  getLittleLamboCoinVersion,
   guessPackaged,
 };

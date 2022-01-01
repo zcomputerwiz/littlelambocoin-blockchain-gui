@@ -5,7 +5,7 @@ import {
   Amount,
   Fee,
   Form,
-  TextField as LittlelambocoinTextField,
+  TextField as LittleLamboCoinTextField,
   AlertDialog,
   CopyToClipboard,
   Flex,
@@ -285,9 +285,9 @@ function BalanceCard(props: BalanceCardProps) {
         balance={balance_spendable}
         tooltip={
           <Trans>
-            This is the amount of Littlelambocoin that you can currently use to make
+            This is the amount of LittleLamboCoin that you can currently use to make
             transactions. It does not include pending farming rewards, pending
-            incoming transactions, and Littlelambocoin that you have just spent but is not
+            incoming transactions, and LittleLamboCoin that you have just spent but is not
             yet in the blockchain.
           </Trans>
         }
@@ -487,7 +487,7 @@ function SendCard(props: SendCardProps) {
       <Form methods={methods} onSubmit={handleSubmit}>
         <Grid spacing={2} container>
           <Grid xs={12} item>
-            <LittlelambocoinTextField
+            <LittleLamboCoinTextField
               name="address"
               variant="filled"
               color="secondary"
@@ -639,7 +639,7 @@ export default function StandardWallet(props: StandardWalletProps) {
         <Flex flexGrow={1}>
           {showTitle && (
             <Typography variant="h5" gutterBottom>
-              <Trans>Littlelambocoin Wallet</Trans>
+              <Trans>LittleLamboCoin Wallet</Trans>
             </Typography>
           )}
         </Flex>

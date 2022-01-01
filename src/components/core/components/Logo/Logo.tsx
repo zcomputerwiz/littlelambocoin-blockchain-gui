@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Box, BoxProps } from '@material-ui/core';
-import { Littlelambocoin } from '@littlelambocoin/icons';
+import { LittleLamboCoin } from '@littlelambocoin/icons';
 
-const StyledLittlelambocoin = styled(Littlelambocoin)`
+const StyledLittleLamboCoin = styled(LittleLamboCoin)`
   max-width: 100%;
   width: auto;
   height: auto;
@@ -12,7 +12,7 @@ const StyledLittlelambocoin = styled(Littlelambocoin)`
 export default function Logo(props: BoxProps) {
   return (
     <Box {...props}>
-      <StyledLittlelambocoin />
+      <StyledLittleLamboCoin />
     </Box>
   );
 }

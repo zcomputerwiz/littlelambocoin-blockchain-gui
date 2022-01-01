@@ -232,7 +232,7 @@ if (!handleSquirrelEvent()) {
       app.applicationMenu = createMenu();
       // if the daemon isn't local we aren't going to try to start/stop it
       if (littlelambocoinConfig.manageDaemonLifetime()) {
-        littlelambocoinEnvironment.startLittlelambocoinDaemon();
+        littlelambocoinEnvironment.startLittleLamboCoinDaemon();
       }
     };
 
@@ -364,7 +364,7 @@ if (!handleSquirrelEvent()) {
         role: 'help',
         submenu: [
           {
-            label: i18n._(/* i18n */ { id: 'Littlelambocoin Blockchain Wiki' }),
+            label: i18n._(/* i18n */ { id: 'LittleLamboCoin Blockchain Wiki' }),
             click: () => {
               openExternal(
                 'https://github.com/Chia-Network/chia-blockchain/wiki',
@@ -423,12 +423,12 @@ if (!handleSquirrelEvent()) {
     ];
 
     if (process.platform === 'darwin') {
-      // Littlelambocoin Blockchain menu (Mac)
+      // LittleLamboCoin Blockchain menu (Mac)
       template.unshift({
-        label: i18n._(/* i18n */ { id: 'Littlelambocoin' }),
+        label: i18n._(/* i18n */ { id: 'LittleLamboCoin' }),
         submenu: [
           {
-            label: i18n._(/* i18n */ { id: 'About Littlelambocoin Blockchain' }),
+            label: i18n._(/* i18n */ { id: 'About LittleLamboCoin Blockchain' }),
             click: () => {
               openAbout();
             },
@@ -515,7 +515,7 @@ if (!handleSquirrelEvent()) {
           type: 'separator',
         },
         {
-          label: i18n._(/* i18n */ { id: 'About Littlelambocoin Blockchain' }),
+          label: i18n._(/* i18n */ { id: 'About LittleLamboCoin Blockchain' }),
           click() {
             openAbout();
           },

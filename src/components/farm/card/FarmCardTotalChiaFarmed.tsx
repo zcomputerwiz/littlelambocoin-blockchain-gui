@@ -6,7 +6,7 @@ import FarmCard from './FarmCard';
 import { mojo_to_littlelambocoin } from '../../../util/littlelambocoin';
 import useCurrencyCode from '../../../hooks/useCurrencyCode';
 
-export default function FarmCardTotalLittlelambocoinFarmed() {
+export default function FarmCardTotalLittleLamboCoinFarmed() {
   const currencyCode = useCurrencyCode();
 
   const loading = useSelector(
@@ -17,7 +17,7 @@ export default function FarmCardTotalLittlelambocoinFarmed() {
     (state: RootState) => state.wallet_state.farmed_amount?.farmed_amount,
   );
 
-  const totalLittlelambocoinFarmed = useMemo(() => {
+  const totalLittleLamboCoinFarmed = useMemo(() => {
     if (farmedAmount !== undefined) {
       const val = BigInt(farmedAmount.toString());
       return mojo_to_littlelambocoin(val);
@@ -26,8 +26,8 @@ export default function FarmCardTotalLittlelambocoinFarmed() {
 
   return (
     <FarmCard
-      title={<Trans>{currencyCode} Total Littlelambocoin Farmed</Trans>}
-      value={totalLittlelambocoinFarmed}
+      title={<Trans>{currencyCode} Total LittleLamboCoin Farmed</Trans>}
+      value={totalLittleLamboCoinFarmed}
       loading={loading}
     />
   );
